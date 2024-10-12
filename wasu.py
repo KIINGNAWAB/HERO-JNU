@@ -45,14 +45,6 @@ def ua():
     return xx
 #----------------------------[LOGO]-----------------------------------#
  
-def superuser():
-    uuid = str(os.geteuid()) + str(os.getlogin()) 
-    id = "72A".join(uuid)
-    DARK=requests.get("https://github.com/Alexmani1/DARK/blob/main/USMANAP.txt").text
-    if id in DARK:
-        main()
-    else:
-        
 logo4 = (f"""                       
 \033[1;32m██╗    ██╗ █████╗ ███████╗██╗   ██╗
 \033[1;32m██║    ██║██╔══██╗██╔════╝██║   ██║
